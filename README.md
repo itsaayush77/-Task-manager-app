@@ -1,12 +1,21 @@
-# React + Vite
+# Task Manager App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A responsive, single-page web application built with React.js to manage tasks efficiently. This project demonstrates proficiency in modern front-end development, including component-based architecture, state management, and responsive design. The app allows users to create, edit, delete, and mark tasks as completed, with real-time filtering and localStorage persistence for a seamless user experience.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **CRUD Operations:** Add, edit, and delete tasks with an intuitive interface.
+- **Task Status Management:** Mark tasks as completed or pending with a single click.
+- **Dynamic Filtering:** Filter tasks by status (All, Completed, Pending) for quick access.
+- **Responsive Design:** Optimized for both desktop and mobile devices using CSS media queries.
+- **CSS Animations:** Smooth fade-in effects for task additions, enhancing user experience.
+- **LocalStorage Persistence:** Tasks are saved in the browser's localStorage, ensuring data persists across sessions.
+- **Custom Favicon:** Branded with a custom logo (`favicon.jpg`) for a professional touch.
 
-## Expanding the ESLint configuration
+## Technologies Used
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **React.js:** For building reusable components and managing state with hooks (`useState`, `useEffect`).
+- **JavaScript (ES6+):** For dynamic functionality, including DOM manipulation and event handling.
+- **CSS3:** For responsive styling and animations (e.g., fade-in transitions).
+- **Vite:** For fast development and optimized build processes.
+- **Git/GitHub:** For version control and project hosting.
