@@ -19,3 +19,4 @@ A responsive, single-page web application built with React.js to manage tasks ef
 - **CSS3:** For responsive styling and animations (e.g., fade-in transitions).
 - **Vite:** For fast development and optimized build processes.
 - **Git/GitHub:** For version control and project hosting.
+This is a initial project i created while learning React .  
